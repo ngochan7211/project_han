@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="radio_vietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,39 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4tZ-2O-9Cp">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="29"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nghe Radio online" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPv-aK-bM9">
+                                        <rect key="frame" x="116" y="4" width="369" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <color key="textColor" red="0.90883413461538465" green="0.15894654244685669" blue="0.38150801127789763" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" red="0.67303685897435894" green="0.67303685897435894" blue="0.67303685897435894" alpha="1" colorSpace="calibratedRGB"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.25641025641025639" green="0.25641025641025639" blue="0.25641025641025639" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="MPv-aK-bM9" secondAttribute="trailing" constant="115" id="CYJ-zq-ZJ2"/>
+                                    <constraint firstItem="MPv-aK-bM9" firstAttribute="leading" secondItem="4tZ-2O-9Cp" secondAttribute="leading" constant="116" id="DAM-6E-ma8"/>
+                                    <constraint firstItem="MPv-aK-bM9" firstAttribute="top" secondItem="4tZ-2O-9Cp" secondAttribute="top" constant="4" id="OIk-Ud-vI6"/>
+                                    <constraint firstAttribute="bottom" secondItem="MPv-aK-bM9" secondAttribute="bottom" constant="4" id="iGj-Sp-Cny"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.064152818767922767" green="0.02176417044424335" blue="0.10418669871794872" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4tZ-2O-9Cp" secondAttribute="bottom" constant="571" id="DVW-Kh-0Dp"/>
+                            <constraint firstItem="4tZ-2O-9Cp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Dfr-6d-InM"/>
+                            <constraint firstItem="4tZ-2O-9Cp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fL3-be-elI"/>
+                            <constraint firstAttribute="trailing" secondItem="4tZ-2O-9Cp" secondAttribute="trailing" id="pzG-ic-3aG"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="29" y="302"/>
         </scene>
     </scenes>
 </document>

@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					8A54177C1ECC409000580D86 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7PYFJ5T6F7;
 					};
 					8A5417901ECC409000580D86 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -401,7 +402,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = radio_vietnam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cusc.com.radio-vietnam";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,7 +415,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = radio_vietnam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cusc.com.radio-vietnam";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +489,7 @@
 				8A5417A71ECC409000580D86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A5417A81ECC409000580D86 /* Build configuration list for PBXNativeTarget "radio_vietnamTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +498,7 @@
 				8A5417AA1ECC409000580D86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A5417AB1ECC409000580D86 /* Build configuration list for PBXNativeTarget "radio_vietnamUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +507,7 @@
 				8A5417AD1ECC409000580D86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
